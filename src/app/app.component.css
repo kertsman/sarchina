@@ -1,0 +1,22 @@
+.rows-of-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: stretch;
+    gap: 5px;
+}
+
+.items-in-row {
+    position: relative;
+    height: 69px;
+    min-width: calc(100vw * 0.1 + 10px);
+    border-radius: 10px;
+    background-color: #2B4E87;
+    text-align: center;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    
+}

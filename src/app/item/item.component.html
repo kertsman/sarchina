@@ -1,0 +1,6 @@
+<div class="item">
+    {{item?.id}}
+    <div [ngStyle]="{'background': (item?.status === 'open' ? '#F4E700' : '#F64D25')}" class="color-indicator"></div>
+    <div  class="number-indicator">20</div>
+    <div class="bridge" *ngIf="drawBridge"></div>
+</div>
